@@ -4,4 +4,13 @@ const DB = [];
 
 DB.push(new User(), new User(), new User());
 
-module.exports = DB;
+const getAllUsers = async () => [...DB];
+
+const getUser = async id => DB.filter(item => item.id === id)[0];
+
+const createUser = async user => {
+  DB.push(user);
+  return user;
+};
+
+module.exports = { getAllUsers, getUser, createUser };

@@ -1,13 +1,11 @@
 const DB = require('../../common/inMemoryDb');
 
-const getAll = async () => DB;
+const getAll = async () => DB.getAllUsers();
 
-const get = async id => DB.filter(item => item.id === id)[0];
+const get = async id => DB.getUser(id);
 
 const create = async user => {
-  DB.push(user);
-
-  return get(user.id);
+  return DB.createUser(user);
 };
 
 module.exports = { getAll, get, create };
