@@ -9,10 +9,23 @@ router.route('/').get(async (req, res) => {
 
 router.route('/:id').get(async (req, res) => {
   try {
-    const user = await usersService.get(req.params.id);
+    const user = await usersService.getOne(req.params.id);
     res.json(User.toResponse(user));
   } catch (e) {
     res.status(404).send(e.message);
+  }
+});
+
+router.route('/:id').put(async (req, res) => {
+  const user = {
+    ...req.body,
+    id: req.params.id
+  };
+  const isUpdated = await usersService.update(user);
+  if (isUpdated) {
+    res.status(200).send(User.toResponse(user));
+  } else {
+    res.sendStatus(400);
   }
 });
 
