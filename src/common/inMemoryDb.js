@@ -23,4 +23,13 @@ const createUser = async user => {
   return user;
 };
 
-module.exports = { getAllUsers, getUser, createUser, updateUser };
+const removeUser = async id => {
+  const curr = DB.findIndex(item => item.id === id);
+  if (curr > -1) {
+    DB = DB.filter(item => item.id !== id);
+    return true;
+  }
+  return false;
+};
+
+module.exports = { getAllUsers, getUser, createUser, updateUser, removeUser };

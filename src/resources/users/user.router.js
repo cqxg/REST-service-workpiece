@@ -40,4 +40,13 @@ router.route('/').post(async (req, res) => {
   res.json(User.toResponse(user));
 });
 
+router.route('/:id').delete(async (req, res) => {
+  const user = await usersService.remove(req.params.id);
+  if (user) {
+    res.sendStatus(204);
+  } else {
+    res.sendStatus(404);
+  }
+});
+
 module.exports = router;
