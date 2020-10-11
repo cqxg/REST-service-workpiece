@@ -7,6 +7,17 @@ router.route('/').get(async (req, res) => {
   res.json(users.map(User.toResponse));
 });
 
+router.route('/').post(async (req, res) => {
+  const user = await usersService.create(
+    new User({
+      login: req.body.login,
+      password: req.body.password,
+      name: req.body.name
+    })
+  );
+  res.json(User.toResponse(user));
+});
+
 router.route('/:id').get(async (req, res) => {
   try {
     const user = await usersService.getOne(req.params.id);
@@ -27,17 +38,6 @@ router.route('/:id').put(async (req, res) => {
   } else {
     res.sendStatus(400);
   }
-});
-
-router.route('/').post(async (req, res) => {
-  const user = await usersService.create(
-    new User({
-      login: req.body.login,
-      password: req.body.password,
-      name: req.body.name
-    })
-  );
-  res.json(User.toResponse(user));
 });
 
 router.route('/:id').delete(async (req, res) => {
