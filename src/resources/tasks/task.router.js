@@ -7,6 +7,12 @@ router.route('/:boardId/tasks').get(async (req, res) => {
   res.json(tasks.map(Task.toResponse));
 });
 
+router.route('/:boardId/tasks').post(async (req, res) => {
+  const task = new Task({ ...req.body, boardId: req.params.boardId });
+  await taskService.create(task);
+  res.json(Task.toResponse(task));
+});
+
 router.route('/:boardId/tasks/:taskId').get(async (req, res) => {
   try {
     const task = await taskService.getOne(
@@ -31,12 +37,6 @@ router.route('/:boardId/tasks/:taskId').put(async (req, res) => {
   } else {
     res.sendStatus(400);
   }
-});
-
-router.route('/:boardId/tasks').post(async (req, res) => {
-  const task = new Task({ ...req.body, boardId: req.params.boardId });
-  await taskService.create(task);
-  res.json(Task.toResponse(task));
 });
 
 router.route('/:boardId/tasks/:taskId').delete(async (req, res) => {
