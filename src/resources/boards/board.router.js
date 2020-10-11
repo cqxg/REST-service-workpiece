@@ -7,6 +7,11 @@ router.route('/').get(async (req, res) => {
   res.json(boards.map(Board.toResponse));
 });
 
+router.route('/').post(async (req, res) => {
+  const board = await boardService.create(new Board(req.body));
+  res.json(Board.toResponse(board));
+});
+
 router.route('/:id').get(async (req, res) => {
   try {
     const board = await boardService.getOne(req.params.id);
@@ -27,11 +32,6 @@ router.route('/:id').put(async (req, res) => {
   } else {
     res.sendStatus(400);
   }
-});
-
-router.route('/').post(async (req, res) => {
-  const board = await boardService.create(new Board(req.body));
-  res.json(Board.toResponse(board));
 });
 
 router.route('/:id').delete(async (req, res) => {

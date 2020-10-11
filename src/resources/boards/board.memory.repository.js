@@ -9,9 +9,7 @@ const getOne = async id => {
 };
 
 const update = async user => DB.updateBoard(user);
-
 const create = async user => DB.createBoard(user);
-
 const remove = async id => DB.removeBoard(id);
 
 module.exports = { getAll, getOne, create, update, remove };
