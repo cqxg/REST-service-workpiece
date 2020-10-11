@@ -26,9 +26,28 @@ const updateUser = async user => {
   return false;
 };
 
+const updateBoard = async board => {
+  const { id } = board;
+  const curr = DB.boards.findIndex(item => item.id === id);
+  if (curr > -1) {
+    DB.boards = [
+      ...DB.boards.slice(0, curr),
+      board,
+      ...DB.boards.slice(curr + 1)
+    ];
+    return true;
+  }
+  return false;
+};
+
 const createUser = async user => {
   DB.users.push(user);
   return user;
+};
+
+const createBoard = async board => {
+  DB.boards.push(board);
+  return board;
 };
 
 const removeUser = async id => {
@@ -40,12 +59,24 @@ const removeUser = async id => {
   return false;
 };
 
+const removeBoard = async id => {
+  const curr = DB.boards.findIndex(item => item.id === id);
+  if (curr > -1) {
+    DB.boards = DB.boards.filter(item => item.id !== id);
+    return true;
+  }
+  return false;
+};
+
 module.exports = {
-  getAllUsers,
   getUser,
+  getAllUsers,
   createUser,
   updateUser,
   removeUser,
+  getBoard,
   getAllBoards,
-  getBoard
+  createBoard,
+  updateBoard,
+  removeBoard
 };

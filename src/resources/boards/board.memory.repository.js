@@ -8,4 +8,10 @@ const getOne = async id => {
   return board;
 };
 
-module.exports = { getAll, getOne };
+const update = async user => DB.updateBoard(user);
+
+const create = async user => DB.createBoard(user);
+
+const remove = async id => DB.removeBoard(id);
+
+module.exports = { getAll, getOne, create, update, remove };

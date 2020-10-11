@@ -4,4 +4,10 @@ const getAll = () => boardsRepo.getAll();
 
 const getOne = id => boardsRepo.getOne(id);
 
-module.exports = { getAll, getOne };
+const create = board => boardsRepo.create(board);
+
+const update = board => boardsRepo.update(board);
+
+const remove = id => boardsRepo.remove(id);
+
+module.exports = { getAll, getOne, create, update, remove };
