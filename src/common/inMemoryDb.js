@@ -14,6 +14,7 @@ const getAllUsers = async () => [...DB.users];
 const getAllBoards = async () => [...DB.boards];
 
 const getUser = async id => DB.users.filter(item => item.id === id)[0];
+const getBoard = async id => DB.boards.filter(item => item.id === id)[0];
 
 const updateUser = async user => {
   const { id } = user;
@@ -45,5 +46,6 @@ module.exports = {
   createUser,
   updateUser,
   removeUser,
-  getAllBoards
+  getAllBoards,
+  getBoard
 };
