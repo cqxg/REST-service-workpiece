@@ -1,32 +1,36 @@
 const User = require('../resources/users/user.model');
 
-let DB = [];
+const DB = {
+  users: [],
+  boards: [],
+  tasks: []
+};
 
-DB.push(new User(), new User(), new User());
+DB.users.push(new User(), new User(), new User());
 
-const getAllUsers = async () => [...DB];
+const getAllUsers = async () => [...DB.users];
 
-const getUser = async id => DB.filter(item => item.id === id)[0];
+const getUser = async id => DB.users.filter(item => item.id === id)[0];
 
 const updateUser = async user => {
   const { id } = user;
-  const curr = DB.findIndex(item => item.id === id);
+  const curr = DB.users.findIndex(item => item.id === id);
   if (curr > -1) {
-    DB = [...DB.slice(0, curr), user, ...DB.slice(curr + 1)];
+    DB.users = [...DB.users.slice(0, curr), user, ...DB.users.slice(curr + 1)];
     return true;
   }
   return false;
 };
 
 const createUser = async user => {
-  DB.push(user);
+  DB.users.push(user);
   return user;
 };
 
 const removeUser = async id => {
-  const curr = DB.findIndex(item => item.id === id);
+  const curr = DB.users.findIndex(item => item.id === id);
   if (curr > -1) {
-    DB = DB.filter(item => item.id !== id);
+    DB.users = DB.users.filter(item => item.id !== id);
     return true;
   }
   return false;
