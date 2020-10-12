@@ -23,12 +23,6 @@ app.use('/', (req, res, next) => {
   next();
 });
 
-app.use((err, req, res, next) => {
-  console.error(err.stack);
-  res.status(500).send('something broke!');
-  next();
-});
-
 app.use('/users', userRouter);
 app.use('/boards', boardRouter);
 app.use('/boards', taskRouter);
