@@ -1,5 +1,5 @@
-const logging = () => {
-  console.log('qq');
+const logging = app => {
+  console.log(app);
 };
 
 module.exports = logging;
