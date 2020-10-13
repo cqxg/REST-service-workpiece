@@ -9,6 +9,10 @@ const logging = app => {
     }
     next(err);
   });
+
+  process.on('uncaughtException', err => {
+    console.log(`Caught exception: ${err}`);
+  });
 };
 
 module.exports = logging;
