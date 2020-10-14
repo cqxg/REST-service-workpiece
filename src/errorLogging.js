@@ -1,6 +1,4 @@
 const logging = app => {
-  // console.log(app);
-
   app.use((err, req, res, next) => {
     if (err) {
       console.log(err);
@@ -12,6 +10,10 @@ const logging = app => {
 
   process.on('uncaughtException', err => {
     console.log(`Caught exception: ${err}`);
+  });
+
+  process.on('unhandledRejection', reason => {
+    console.log(`Unhandled rejection detected: ${reason.message}`);
   });
 };
 
