@@ -4,7 +4,7 @@ const getAll = async boardId => DB.getAllTasks(boardId);
 
 const getOne = async (boardId, id) => {
   const task = await DB.getTask(boardId, id);
-  if (!task) throw new Error(`The task with id: ${task} was not found`);
+  if (!task) throw new Error(`The task with id: ${id} was not found`);
   return task;
 };
 
