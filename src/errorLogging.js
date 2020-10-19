@@ -8,6 +8,8 @@ const logging = app => {
 
     finished(res, () => {
       const ms = Date.now() - start;
+      console.log('BODY:', req.body);
+      console.log('PARAMS:', req.params || '');
       console.log(`${method} ${url} ${statusCode} [${ms}ms]`);
     });
 
