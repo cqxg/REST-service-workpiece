@@ -1,15 +1,38 @@
-// const DB = require('../../common/inMemoryDb');
+const { Task } = require('./task.model');
 
-// const getAll = async boardId => DB.getAllTasks(boardId);
+const getAll = async boardId => {
+  const tasks = await Task.find({ boardId });
 
-// const getOne = async (boardId, id) => {
-//   const task = await DB.getTask(boardId, id);
-//   if (!task) throw new Error(`The task with id: ${id} was not found`);
-//   return task;
-// };
+  return tasks;
+};
 
-// const create = async task => DB.createTask(task);
-// const update = async task => DB.updateTask(task);
-// const remove = async (boardId, id) => DB.removeTask(boardId, id);
+const createTask = async (boardId, task) => {
+  task.boardId = boardId;
+  const createdTask = await new Task(task);
+  await createdTask.save();
 
-// module.exports = { getAll, getOne, create, update, remove };
+  return createdTask;
+};
+
+const getTask = async (boardId, taskId) => {
+  const task = await Task.findOne({ _id: taskId, boardId });
+
+  return task;
+};
+
+const updateTask = async (boardId, taskId, updatedTask) => {
+  const task = await Task.findOneAndUpdate(
+    { _id: taskId, boardId },
+    updatedTask,
+    { new: true }
+  );
+
+  return task;
+};
+
+const deleteTask = async (boardId, taskId) => {
+  await Task.findOneAndDelete({ _id: taskId, boardId });
+  return 'Task has been deleted';
+};
+
+module.exports = { getAll, getTask, createTask, updateTask, deleteTask };
