@@ -21,7 +21,7 @@ const winstonLogger = winston.createLogger({
   exitOnError: false
 });
 
-function logRequest(req, res, next) {
+const logRequest = (req, res, next) => {
   const date = new Date();
 
   if (req.body.password) {
@@ -55,9 +55,9 @@ function logRequest(req, res, next) {
   }
 
   next();
-}
+};
 
-function logError(error, req, res, next) {
+const logError = (error, req, res, next) => {
   const date = new Date();
 
   winstonLogger.log(
@@ -78,9 +78,9 @@ function logError(error, req, res, next) {
     `
   );
   next();
-}
+};
 
-function logUnhandledRejection(err) {
+const logUnhandledRejection = err => {
   const date = new Date();
 
   winstonLogger.log(
@@ -90,9 +90,9 @@ function logUnhandledRejection(err) {
   ERROR: ${err}
   ERROR PROMISE REJECTION DETAILS: ${err.stack}`
   );
-}
+};
 
-function logUncaughtException(err, origin) {
+const logUncaughtException = (err, origin) => {
   const date = new Date();
 
   winstonLogger.log(
@@ -105,7 +105,7 @@ function logUncaughtException(err, origin) {
   ${err.stack}
   `
   );
-}
+};
 
 module.exports = {
   logRequest,

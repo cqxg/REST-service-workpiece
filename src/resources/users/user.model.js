@@ -18,7 +18,6 @@ const userSchema = new Schema(
       type: String,
       unique: false,
       required: true
-      // select: false
     }
   },
   { versionKey: false }

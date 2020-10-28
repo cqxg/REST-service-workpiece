@@ -270,3 +270,414 @@ error:
     at Object.<anonymous> (C:\Programming\nodeCourse\src\server.js:2:13)
     at Module._compile (internal/modules/cjs/loader.js:1137:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+error: 
+  TIME: Wed Oct 28 2020 12:36:02 GMT+0300 (GMT+03:00)
+  ERROR: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+  ERROR PROMISE REJECTION DETAILS: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+    at NativeConnection.Connection.openUri (C:\Programming\nodeCourse\node_modules\mongoose\lib\connection.js:800:32)
+    at C:\Programming\nodeCourse\node_modules\mongoose\lib\index.js:342:10
+    at C:\Programming\nodeCourse\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Programming\nodeCourse\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose.connect (C:\Programming\nodeCourse\node_modules\mongoose\lib\index.js:341:10)
+    at Object.<anonymous> (C:\Programming\nodeCourse\src\app.js:17:10)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\Programming\nodeCourse\src\server.js:2:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+error: 
+  TIME: Wed Oct 28 2020 12:37:03 GMT+0300 (GMT+03:00)
+  ERROR: Error: listen EADDRINUSE: address already in use :::4000
+  ERROR TYPE: uncaughtException
+  ERROR DETAILS:
+  Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (net.js:1313:16)
+    at listenInCluster (net.js:1361:12)
+    at Server.listen (net.js:1447:7)
+    at Function.listen (C:\Programming\nodeCourse\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Programming\nodeCourse\src\server.js:4:5)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47
+  
+error: 
+  TIME: Wed Oct 28 2020 12:38:07 GMT+0300 (GMT+03:00)
+  ERROR: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+  ERROR PROMISE REJECTION DETAILS: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+    at NativeConnection.Connection.openUri (C:\Programming\nodeCourse\node_modules\mongoose\lib\connection.js:800:32)
+    at C:\Programming\nodeCourse\node_modules\mongoose\lib\index.js:342:10
+    at C:\Programming\nodeCourse\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Programming\nodeCourse\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose.connect (C:\Programming\nodeCourse\node_modules\mongoose\lib\index.js:341:10)
+    at Object.<anonymous> (C:\Programming\nodeCourse\src\app.js:17:10)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\Programming\nodeCourse\src\server.js:2:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+error: 
+    TIME: Wed Oct 28 2020 12:39:08 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/undefined/tasks
+    BODY: no body for GET
+    ERROR STATUS: 500
+    ERROR MESSAGE: Cast to ObjectId failed for value "undefined" at path "_id" for model "Board"
+    ERROR DETAILS:
+    CastError: Cast to ObjectId failed for value "undefined" at path "_id" for model "Board"
+    at model.Query.exec (C:\Programming\nodeCourse\node_modules\mongoose\lib\query.js:4380:21)
+    at model.Query.Query.then (C:\Programming\nodeCourse\node_modules\mongoose\lib\query.js:4472:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    
+error: 
+    TIME: Wed Oct 28 2020 12:39:08 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/undefined/tasks
+    BODY: no body for GET
+    ERROR STATUS: 500
+    ERROR MESSAGE: Cast to ObjectId failed for value "undefined" at path "_id" for model "Board"
+    ERROR DETAILS:
+    CastError: Cast to ObjectId failed for value "undefined" at path "_id" for model "Board"
+    at model.Query.exec (C:\Programming\nodeCourse\node_modules\mongoose\lib\query.js:4380:21)
+    at model.Query.Query.then (C:\Programming\nodeCourse\node_modules\mongoose\lib\query.js:4472:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    
+error: 
+    TIME: Wed Oct 28 2020 12:39:18 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/undefined/tasks/undefined
+    BODY: no body for GET
+    ERROR STATUS: 500
+    ERROR MESSAGE: Cast to ObjectId failed for value "undefined" at path "_id" for model "Task"
+    ERROR DETAILS:
+    CastError: Cast to ObjectId failed for value "undefined" at path "_id" for model "Task"
+    at model.Query.exec (C:\Programming\nodeCourse\node_modules\mongoose\lib\query.js:4380:21)
+    at model.Query.Query.then (C:\Programming\nodeCourse\node_modules\mongoose\lib\query.js:4472:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    
+error: 
+  TIME: Wed Oct 28 2020 12:40:44 GMT+0300 (GMT+03:00)
+  ERROR: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+  ERROR PROMISE REJECTION DETAILS: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+    at NativeConnection.Connection.openUri (C:\Programming\nodeCourse\node_modules\mongoose\lib\connection.js:800:32)
+    at C:\Programming\nodeCourse\node_modules\mongoose\lib\index.js:342:10
+    at C:\Programming\nodeCourse\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Programming\nodeCourse\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose.connect (C:\Programming\nodeCourse\node_modules\mongoose\lib\index.js:341:10)
+    at Object.<anonymous> (C:\Programming\nodeCourse\src\app.js:17:10)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\Programming\nodeCourse\src\server.js:2:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+error: 
+    TIME: Wed Oct 28 2020 12:47:51 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5f993e47e16931011c98304b
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at C:\Programming\nodeCourse\src\resources\boards\board.router.js:19:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Oct 28 2020 12:47:52 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5f993e47e16931011c98304c/tasks/5f993e47e16931011c98304e
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at C:\Programming\nodeCourse\src\resources\tasks\task.router.js:33:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Oct 28 2020 12:47:52 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5f993e47e16931011c98304c/tasks/5f993e47e16931011c983050
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at C:\Programming\nodeCourse\src\resources\tasks\task.router.js:33:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Oct 28 2020 12:47:52 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5f993e47e16931011c98304c/tasks/5f993e47e16931011c98304f
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at C:\Programming\nodeCourse\src\resources\tasks\task.router.js:33:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Oct 28 2020 12:47:52 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5f993e47e16931011c98304c/tasks/5f993e47e16931011c983051
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at C:\Programming\nodeCourse\src\resources\tasks\task.router.js:33:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Oct 28 2020 12:47:52 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5f993e47e16931011c98304c/tasks/5f993e47e16931011c98304d
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at C:\Programming\nodeCourse\src\resources\tasks\task.router.js:33:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Oct 28 2020 12:47:56 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5f993e4be16931011c98305a/tasks/5f993e4be16931011c98305b
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at C:\Programming\nodeCourse\src\resources\tasks\task.router.js:33:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Oct 28 2020 12:51:27 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5f993f1f62c05f2214d2a342
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at C:\Programming\nodeCourse\src\resources\boards\board.router.js:19:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Oct 28 2020 12:51:27 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5f993f1f62c05f2214d2a343/tasks/5f993f1f62c05f2214d2a344
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at C:\Programming\nodeCourse\src\resources\tasks\task.router.js:33:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Oct 28 2020 12:51:27 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5f993f1f62c05f2214d2a343/tasks/5f993f1f62c05f2214d2a346
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at C:\Programming\nodeCourse\src\resources\tasks\task.router.js:33:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Oct 28 2020 12:51:27 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5f993f1f62c05f2214d2a343/tasks/5f993f1f62c05f2214d2a345
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at C:\Programming\nodeCourse\src\resources\tasks\task.router.js:33:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Oct 28 2020 12:51:27 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5f993f1f62c05f2214d2a343/tasks/5f993f1f62c05f2214d2a348
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at C:\Programming\nodeCourse\src\resources\tasks\task.router.js:33:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Oct 28 2020 12:51:28 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5f993f1f62c05f2214d2a343/tasks/5f993f1f62c05f2214d2a347
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at C:\Programming\nodeCourse\src\resources\tasks\task.router.js:33:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Oct 28 2020 12:51:30 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5f993f2162c05f2214d2a351/tasks/5f993f2162c05f2214d2a352
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at C:\Programming\nodeCourse\src\resources\tasks\task.router.js:33:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Oct 28 2020 12:57:28 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5f9940873e17de0d0c5491e9
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at C:\Programming\nodeCourse\src\resources\boards\board.router.js:19:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Oct 28 2020 12:57:28 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5f9940883e17de0d0c5491ea/tasks/5f9940883e17de0d0c5491ec
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at C:\Programming\nodeCourse\src\resources\tasks\task.router.js:33:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Oct 28 2020 12:57:28 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5f9940883e17de0d0c5491ea/tasks/5f9940883e17de0d0c5491eb
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at C:\Programming\nodeCourse\src\resources\tasks\task.router.js:33:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Oct 28 2020 12:57:28 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5f9940883e17de0d0c5491ea/tasks/5f9940883e17de0d0c5491ee
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at C:\Programming\nodeCourse\src\resources\tasks\task.router.js:33:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Oct 28 2020 12:57:28 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5f9940883e17de0d0c5491ea/tasks/5f9940883e17de0d0c5491ed
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at C:\Programming\nodeCourse\src\resources\tasks\task.router.js:33:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Oct 28 2020 12:57:28 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5f9940883e17de0d0c5491ea/tasks/5f9940883e17de0d0c5491ef
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at C:\Programming\nodeCourse\src\resources\tasks\task.router.js:33:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Oct 28 2020 12:57:31 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5f99408a3e17de0d0c5491f8/tasks/5f99408a3e17de0d0c5491f9
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at C:\Programming\nodeCourse\src\resources\tasks\task.router.js:33:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
