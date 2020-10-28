@@ -1,16 +1,8 @@
-const User = require('../resources/users/user.model');
-const Board = require('../resources/boards/board.model');
-const Task = require('../resources/tasks/task.model');
-
 const DB = {
   users: [],
   boards: [],
   tasks: []
 };
-
-DB.users.push(new User(), new User(), new User());
-DB.boards.push(new Board(), new Board(), new Board());
-DB.tasks.push(new Task(), new Task(), new Task());
 
 const getAllUsers = async () => [...DB.users];
 const getAllBoards = async () => [...DB.boards];

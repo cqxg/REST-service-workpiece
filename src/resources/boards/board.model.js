@@ -1,15 +1,45 @@
-const { v4: uuid } = require('uuid');
-class Board {
-  constructor({ id = uuid(), title = 'BOARD', columns = [] } = {}) {
-    this.id = id;
-    this.title = title;
-    this.columns = columns.map(column => ({ ...column, id: uuid() }));
-  }
+const mongoose = require('mongoose');
+const { Schema } = mongoose;
 
-  static toResponse(board) {
-    const { id, title, columns } = board;
-    return { id, title, columns };
-  }
-}
+const columnSchema = new Schema(
+  {
+    id: {
+      type: String,
+      unique: true,
+      require: false
+    },
+    title: {
+      type: String,
+      unique: false,
+      required: true
+    },
+    order: {
+      type: Number,
+      unique: false,
+      required: false
+    }
+  },
+  { versionKey: false, _id: false }
+);
 
-module.exports = Board;
+const boardSchema = new Schema(
+  {
+    title: {
+      type: String,
+      unique: false,
+      required: true
+    },
+    columns: [columnSchema]
+  },
+  { versionKey: false }
+);
+boardSchema.statics.toResponse = board => {
+  const { _id, title, columns } = board;
+  return { id: _id, title, columns };
+};
+
+const Board = mongoose.model('Board', boardSchema);
+
+module.exports = {
+  Board
+};
