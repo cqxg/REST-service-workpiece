@@ -1,0 +1,201 @@
+error: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f546a1390b3480694fb7
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Programming\RSS Node Course\Express REST service\src\resources\boards\board.router.js:19:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f545a1390b3480694fae/tasks/5fa2f545a1390b3480694faf
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Programming\RSS Node Course\Express REST service\src\resources\tasks\task.router.js:33:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f546a1390b3480694fb9/tasks/5fa2f546a1390b3480694fba
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Programming\RSS Node Course\Express REST service\src\resources\tasks\task.router.js:33:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f546a1390b3480694fb9/tasks/5fa2f546a1390b3480694fbb
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Programming\RSS Node Course\Express REST service\src\resources\tasks\task.router.js:33:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f546a1390b3480694fb9/tasks/5fa2f546a1390b3480694fbc
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Programming\RSS Node Course\Express REST service\src\resources\tasks\task.router.js:33:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f546a1390b3480694fb9/tasks/5fa2f546a1390b3480694fbe
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Programming\RSS Node Course\Express REST service\src\resources\tasks\task.router.js:33:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f546a1390b3480694fb9/tasks/5fa2f546a1390b3480694fbd
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Programming\RSS Node Course\Express REST service\src\resources\tasks\task.router.js:33:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f5676d1cf337a46bb8ae
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Programming\RSS Node Course\Express REST service\src\resources\boards\board.router.js:19:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f5666d1cf337a46bb8a4/tasks/5fa2f5666d1cf337a46bb8a7
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Programming\RSS Node Course\Express REST service\src\resources\tasks\task.router.js:33:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Nov 04 2020 21:39:36 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f5676d1cf337a46bb8b0/tasks/5fa2f5676d1cf337a46bb8b4
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Programming\RSS Node Course\Express REST service\src\resources\tasks\task.router.js:33:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Nov 04 2020 21:39:36 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f5676d1cf337a46bb8b0/tasks/5fa2f5676d1cf337a46bb8b3
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Programming\RSS Node Course\Express REST service\src\resources\tasks\task.router.js:33:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Nov 04 2020 21:39:36 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f5676d1cf337a46bb8b0/tasks/5fa2f5676d1cf337a46bb8b2
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Programming\RSS Node Course\Express REST service\src\resources\tasks\task.router.js:33:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Nov 04 2020 21:39:36 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f5676d1cf337a46bb8b0/tasks/5fa2f5676d1cf337a46bb8b6
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Programming\RSS Node Course\Express REST service\src\resources\tasks\task.router.js:33:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Nov 04 2020 21:39:36 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f5676d1cf337a46bb8b0/tasks/5fa2f5676d1cf337a46bb8b5
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Programming\RSS Node Course\Express REST service\src\resources\tasks\task.router.js:33:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    

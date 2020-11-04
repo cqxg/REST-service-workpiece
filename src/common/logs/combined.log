@@ -1,0 +1,1573 @@
+info: 
+    TIME: Wed Nov 04 2020 21:38:46 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TIME: Wed Nov 04 2020 21:38:46 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:38:46 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:38:46 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TIME: Wed Nov 04 2020 21:38:46 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TIME: Wed Nov 04 2020 21:38:46 GMT+0300 (GMT+03:00)
+    TYPE: PUT
+    URL: /boards/undefined
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest updated board"}
+
+info: 
+    TIME: Wed Nov 04 2020 21:38:46 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TIME: Wed Nov 04 2020 21:38:46 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TIME: Wed Nov 04 2020 21:38:46 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /boards/undefined
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TIME: Wed Nov 04 2020 21:38:47 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TIME: Wed Nov 04 2020 21:38:47 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards/undefined/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TIME: Wed Nov 04 2020 21:38:47 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/undefined/tasks
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:38:47 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/undefined/tasks
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:38:47 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards/undefined/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TIME: Wed Nov 04 2020 21:38:47 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards/undefined/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TIME: Wed Nov 04 2020 21:38:47 GMT+0300 (GMT+03:00)
+    TYPE: PUT
+    URL: /boards/undefined/tasks/undefined
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest updated task"}
+
+info: 
+    TIME: Wed Nov 04 2020 21:38:47 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/undefined/tasks/undefined
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:38:47 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /boards/undefined
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TIME: Wed Nov 04 2020 21:38:47 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:38:47 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TIME: Wed Nov 04 2020 21:38:47 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TIME: Wed Nov 04 2020 21:38:47 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TIME: Wed Nov 04 2020 21:38:47 GMT+0300 (GMT+03:00)
+    TYPE: PUT
+    URL: /users/undefined
+    QUERY PARAMS: {}
+    BODY: {"name":"Autotest updated TEST_USER","login":"test_user"}
+
+info: 
+    TIME: Wed Nov 04 2020 21:38:47 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TIME: Wed Nov 04 2020 21:38:47 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /users/undefined
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TIME: Wed Nov 04 2020 21:38:47 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/12345/tasks
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/12345/tasks/12345
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /users/123
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards/12345/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/12345
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: PUT
+    URL: /boards/12345/tasks/12345
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: PUT
+    URL: /users/12345
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /boards/12345/tasks/12345
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /users/12345
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: PUT
+    URL: /boards/12345
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /boards/12345
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards/5fa2f545a1390b3480694fae/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2ba1e630e3b1010abe76d
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /users/5fa2f545a1390b3480694fb0
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f545a1390b3480694fae/tasks
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /users/5fa2f545a1390b3480694fb0
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f545a1390b3480694fae/tasks
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /boards/5fa2f545a1390b3480694fb1
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f545a1390b3480694fae/tasks/5fa2f545a1390b3480694faf
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards/5fa2f545a1390b3480694fae/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: PUT
+    URL: /boards/5fa2f545a1390b3480694fb3
+    QUERY PARAMS: {}
+    BODY: {"id":"5fa2f545a1390b3480694fb3","title":"Autotest updated board","columns":[{"title":"Backlog","order":1,"id":"aa292063-835e-408c-9a53-6544674fcbce"},{"title":"Sprint","order":2,"id":"3a92c96a-137c-40d6-b025-d365a9c7a9d5"}]}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /users/5fa2f545a1390b3480694fb2
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f545a1390b3480694fb3
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:01 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /boards/5fa2f545a1390b3480694fae/tasks/5fa2f545a1390b3480694fb4
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /boards/5fa2f545a1390b3480694fb3
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards/5fa2f545a1390b3480694fae/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: PUT
+    URL: /users/5fa2f546a1390b3480694fb5
+    QUERY PARAMS: {}
+    BODY: {"name":"Autotest updated TEST_USER","login":"test_user","id":"5fa2f546a1390b3480694fb5"}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: PUT
+    URL: /boards/5fa2f545a1390b3480694fae/tasks/5fa2f546a1390b3480694fb6
+    QUERY PARAMS: {}
+    BODY: {"id":"5fa2f546a1390b3480694fb6","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"5fa2f545a1390b3480694fae","columnId":null}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /users/5fa2f546a1390b3480694fb5
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /boards/5fa2f546a1390b3480694fb7
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f545a1390b3480694fae/tasks/5fa2f546a1390b3480694fb6
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /users/5fa2f546a1390b3480694fb5
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f545a1390b3480694fae/tasks/5fa2f545a1390b3480694faf
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f546a1390b3480694fb7
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /boards/5fa2f545a1390b3480694fae/tasks/5fa2f545a1390b3480694faf
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+error: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f546a1390b3480694fb7
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Programming\RSS Node Course\Express REST service\src\resources\boards\board.router.js:19:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f545a1390b3480694fae/tasks/5fa2f545a1390b3480694faf
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /users/5fa2f546a1390b3480694fb8
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards/5fa2f546a1390b3480694fb9/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"5fa2f546a1390b3480694fb9","userId":null,"columnId":null}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards/5fa2f546a1390b3480694fb9/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"5fa2f546a1390b3480694fb9","userId":null,"columnId":null}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards/5fa2f546a1390b3480694fb9/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"5fa2f546a1390b3480694fb9","userId":null,"columnId":null}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards/5fa2f546a1390b3480694fb9/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"5fa2f546a1390b3480694fb9","userId":null,"columnId":null}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards/5fa2f546a1390b3480694fb9/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"5fa2f546a1390b3480694fb9","userId":null,"columnId":null}
+
+error: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f545a1390b3480694fae/tasks/5fa2f545a1390b3480694faf
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Programming\RSS Node Course\Express REST service\src\resources\tasks\task.router.js:33:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /boards/5fa2f545a1390b3480694fae
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f546a1390b3480694fb9/tasks/5fa2f546a1390b3480694fba
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f546a1390b3480694fb9/tasks/5fa2f546a1390b3480694fbb
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f546a1390b3480694fb9/tasks/5fa2f546a1390b3480694fbc
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f546a1390b3480694fb9/tasks/5fa2f546a1390b3480694fbd
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f546a1390b3480694fb9/tasks/5fa2f546a1390b3480694fbe
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /boards/5fa2f546a1390b3480694fb9
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards/5fa2f546a1390b3480694fc0/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"5fa2f546a1390b3480694fbf","boardId":"5fa2f546a1390b3480694fc0"}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards/5fa2f546a1390b3480694fc0/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"5fa2f546a1390b3480694fbf","boardId":"5fa2f546a1390b3480694fc0"}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f546a1390b3480694fb9/tasks/5fa2f546a1390b3480694fba
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f546a1390b3480694fb9/tasks/5fa2f546a1390b3480694fbb
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f546a1390b3480694fb9/tasks/5fa2f546a1390b3480694fbc
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f546a1390b3480694fb9/tasks/5fa2f546a1390b3480694fbd
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f546a1390b3480694fb9/tasks/5fa2f546a1390b3480694fbe
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /users/5fa2f546a1390b3480694fbf
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+error: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f546a1390b3480694fb9/tasks/5fa2f546a1390b3480694fba
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Programming\RSS Node Course\Express REST service\src\resources\tasks\task.router.js:33:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f546a1390b3480694fb9/tasks/5fa2f546a1390b3480694fbb
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Programming\RSS Node Course\Express REST service\src\resources\tasks\task.router.js:33:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f546a1390b3480694fb9/tasks/5fa2f546a1390b3480694fbc
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Programming\RSS Node Course\Express REST service\src\resources\tasks\task.router.js:33:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f546a1390b3480694fb9/tasks/5fa2f546a1390b3480694fbe
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Programming\RSS Node Course\Express REST service\src\resources\tasks\task.router.js:33:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f546a1390b3480694fb9/tasks/5fa2f546a1390b3480694fbd
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Programming\RSS Node Course\Express REST service\src\resources\tasks\task.router.js:33:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /boards/5fa2f545a1390b3480694fad
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f546a1390b3480694fc0/tasks/5fa2f546a1390b3480694fc1
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f546a1390b3480694fc0/tasks/5fa2f546a1390b3480694fc2
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /boards/5fa2f546a1390b3480694fc0/tasks/5fa2f546a1390b3480694fc2
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /boards/5fa2f546a1390b3480694fc0/tasks/5fa2f546a1390b3480694fc1
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:02 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /boards/5fa2f546a1390b3480694fc0
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:34 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:34 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:34 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/12345/tasks
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:34 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /users/123
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:34 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/12345
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:34 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:34 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/12345/tasks/12345
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:34 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:34 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:34 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:34 GMT+0300 (GMT+03:00)
+    TYPE: PUT
+    URL: /users/12345
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:34 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards/12345/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:34 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:34 GMT+0300 (GMT+03:00)
+    TYPE: PUT
+    URL: /boards/12345
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:34 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /users/12345
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:34 GMT+0300 (GMT+03:00)
+    TYPE: PUT
+    URL: /boards/12345/tasks/12345
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:34 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /boards/12345
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:34 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /boards/12345/tasks/12345
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:34 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:34 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:34 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:34 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:34 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards/5fa2f5666d1cf337a46bb8a4/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:34 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:34 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /users/5fa2f5666d1cf337a46bb8a6
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:34 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:34 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f5666d1cf337a46bb8a4/tasks
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:34 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /users/5fa2f5666d1cf337a46bb8a6
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2ba1e630e3b1010abe76d
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f5666d1cf337a46bb8a4/tasks
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f5666d1cf337a46bb8a4/tasks/5fa2f5666d1cf337a46bb8a7
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /boards/5fa2f5676d1cf337a46bb8a9
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /users/5fa2f5676d1cf337a46bb8a8
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards/5fa2f5666d1cf337a46bb8a4/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /boards/5fa2f5666d1cf337a46bb8a4/tasks/5fa2f5676d1cf337a46bb8aa
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: PUT
+    URL: /boards/5fa2f5676d1cf337a46bb8ab
+    QUERY PARAMS: {}
+    BODY: {"id":"5fa2f5676d1cf337a46bb8ab","title":"Autotest updated board","columns":[{"title":"Backlog","order":1,"id":"e922a3c7-e8ec-4191-b863-5b4def8a4a55"},{"title":"Sprint","order":2,"id":"6d7cfa40-be50-4a3f-b4aa-f178856e5076"}]}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: PUT
+    URL: /users/5fa2f5676d1cf337a46bb8ac
+    QUERY PARAMS: {}
+    BODY: {"name":"Autotest updated TEST_USER","login":"test_user","id":"5fa2f5676d1cf337a46bb8ac"}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards/5fa2f5666d1cf337a46bb8a4/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f5676d1cf337a46bb8ab
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /users/5fa2f5676d1cf337a46bb8ac
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /boards/5fa2f5676d1cf337a46bb8ab
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: PUT
+    URL: /boards/5fa2f5666d1cf337a46bb8a4/tasks/5fa2f5676d1cf337a46bb8ad
+    QUERY PARAMS: {}
+    BODY: {"id":"5fa2f5676d1cf337a46bb8ad","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"5fa2f5666d1cf337a46bb8a4","columnId":null}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /users/5fa2f5676d1cf337a46bb8ac
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f5666d1cf337a46bb8a4/tasks/5fa2f5676d1cf337a46bb8ad
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f5666d1cf337a46bb8a4/tasks/5fa2f5666d1cf337a46bb8a7
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /boards/5fa2f5676d1cf337a46bb8ae
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /boards/5fa2f5666d1cf337a46bb8a4/tasks/5fa2f5666d1cf337a46bb8a7
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /users/5fa2f5676d1cf337a46bb8af
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f5676d1cf337a46bb8ae
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f5666d1cf337a46bb8a4/tasks/5fa2f5666d1cf337a46bb8a7
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+error: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f5676d1cf337a46bb8ae
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Programming\RSS Node Course\Express REST service\src\resources\boards\board.router.js:19:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+error: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f5666d1cf337a46bb8a4/tasks/5fa2f5666d1cf337a46bb8a7
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Programming\RSS Node Course\Express REST service\src\resources\tasks\task.router.js:33:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /boards/5fa2f5666d1cf337a46bb8a4
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards/5fa2f5676d1cf337a46bb8b0/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"5fa2f5676d1cf337a46bb8b0","userId":null,"columnId":null}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards/5fa2f5676d1cf337a46bb8b0/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"5fa2f5676d1cf337a46bb8b0","userId":null,"columnId":null}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards/5fa2f5676d1cf337a46bb8b0/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"5fa2f5676d1cf337a46bb8b0","userId":null,"columnId":null}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards/5fa2f5676d1cf337a46bb8b0/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"5fa2f5676d1cf337a46bb8b0","userId":null,"columnId":null}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards/5fa2f5676d1cf337a46bb8b0/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"5fa2f5676d1cf337a46bb8b0","userId":null,"columnId":null}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards/5fa2f5676d1cf337a46bb8b7/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"5fa2f5676d1cf337a46bb8b1","boardId":"5fa2f5676d1cf337a46bb8b7"}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: POST
+    URL: /boards/5fa2f5676d1cf337a46bb8b7/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"5fa2f5676d1cf337a46bb8b1","boardId":"5fa2f5676d1cf337a46bb8b7"}
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f5676d1cf337a46bb8b0/tasks/5fa2f5676d1cf337a46bb8b2
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f5676d1cf337a46bb8b0/tasks/5fa2f5676d1cf337a46bb8b4
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f5676d1cf337a46bb8b0/tasks/5fa2f5676d1cf337a46bb8b3
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f5676d1cf337a46bb8b0/tasks/5fa2f5676d1cf337a46bb8b5
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f5676d1cf337a46bb8b0/tasks/5fa2f5676d1cf337a46bb8b6
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /boards/5fa2f5676d1cf337a46bb8b0
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:35 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /users/5fa2f5676d1cf337a46bb8b1
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:36 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f5676d1cf337a46bb8b0/tasks/5fa2f5676d1cf337a46bb8b4
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:36 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f5676d1cf337a46bb8b0/tasks/5fa2f5676d1cf337a46bb8b2
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:36 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f5676d1cf337a46bb8b0/tasks/5fa2f5676d1cf337a46bb8b3
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:36 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f5676d1cf337a46bb8b0/tasks/5fa2f5676d1cf337a46bb8b5
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:36 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f5676d1cf337a46bb8b0/tasks/5fa2f5676d1cf337a46bb8b6
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:36 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f5676d1cf337a46bb8b7/tasks/5fa2f5676d1cf337a46bb8b8
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+error: 
+    TIME: Wed Nov 04 2020 21:39:36 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f5676d1cf337a46bb8b0/tasks/5fa2f5676d1cf337a46bb8b4
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Programming\RSS Node Course\Express REST service\src\resources\tasks\task.router.js:33:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Nov 04 2020 21:39:36 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f5676d1cf337a46bb8b0/tasks/5fa2f5676d1cf337a46bb8b3
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Programming\RSS Node Course\Express REST service\src\resources\tasks\task.router.js:33:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Nov 04 2020 21:39:36 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f5676d1cf337a46bb8b0/tasks/5fa2f5676d1cf337a46bb8b2
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Programming\RSS Node Course\Express REST service\src\resources\tasks\task.router.js:33:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Nov 04 2020 21:39:36 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f5676d1cf337a46bb8b0/tasks/5fa2f5676d1cf337a46bb8b6
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Programming\RSS Node Course\Express REST service\src\resources\tasks\task.router.js:33:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+error: 
+    TIME: Wed Nov 04 2020 21:39:36 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f5676d1cf337a46bb8b0/tasks/5fa2f5676d1cf337a46bb8b5
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Programming\RSS Node Course\Express REST service\src\resources\tasks\task.router.js:33:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at runNextTicks (internal/process/task_queues.js:66:3)
+    at processImmediate (internal/timers.js:429:9)
+    
+info: 
+    TIME: Wed Nov 04 2020 21:39:36 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /boards/5fa2f5666d1cf337a46bb8a5
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:36 GMT+0300 (GMT+03:00)
+    TYPE: GET
+    URL: /boards/5fa2f5676d1cf337a46bb8b7/tasks/5fa2f5676d1cf337a46bb8b9
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:36 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /boards/5fa2f5676d1cf337a46bb8b7/tasks/5fa2f5676d1cf337a46bb8b8
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:36 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /boards/5fa2f5676d1cf337a46bb8b7/tasks/5fa2f5676d1cf337a46bb8b9
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TIME: Wed Nov 04 2020 21:39:36 GMT+0300 (GMT+03:00)
+    TYPE: DELETE
+    URL: /boards/5fa2f5676d1cf337a46bb8b7
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
